@@ -1,4 +1,4 @@
-# Belajar_Github_dan_Coding
+# Belajar Github dan Coding
 Halloo!!!!!!, aku seorang pemula yang ingin belajar tentang pemrograman, Github, dan hal hal yang berkaitan dengan bidang IT
 
 ## Tujuannya
