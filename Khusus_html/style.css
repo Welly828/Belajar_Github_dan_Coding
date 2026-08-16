@@ -1,1 +1,16 @@
+body {
+  background-color: aliceblue;
+}
 
+container-navbar {
+  background-color: greenyellow;
+}
+
+.ul-navbar {
+  background-color: green;
+}
+
+.li-navbar {
+  border: 1px solid black;
+  list-style-type: none;
+}
