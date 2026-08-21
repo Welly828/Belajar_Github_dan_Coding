@@ -26,8 +26,19 @@ Warna_Gelang_Pengali = {
     "putih" : 1000000000
 }
 
-print(=== Kalkulator Resistor 4 Gelang ===)
+print("=== Kalkulator Resistor 4 Gelang ===")
+print("Ketik Sesuai dengan Template di Bawah ini!")
+print("hitam, coklat, merah, oranye, kuning, hijau, biru, violet, abu-abu, putih. silver dan emas (tambahan warna pengali)")
 
-Gelang1 = input("Masukkan Warna Gelang 1 = ").lower()
+print("======================================")
+Gelang1 = input("\nMasukkan Warna Gelang 1 = ").lower()
 Gelang2 = input("Masukkan Warna Gelang 2 = ").lower()
 Gelang3 = input("Masukkan Warna Gelang 3 (Pengali) = ").lower()
+
+Angka1 = Warna_Gelang[Gelang1]
+Angka2 = Warna_Gelang[Gelang2]
+Pengali = Warna_Gelang_Pengali[Gelang3]
+
+Nilai_Resistor = ((Angka1 * 10) + Angka2) * Pengali
+print("==============================================")
+print("Nilai Resistor adalah", Nilai_Resistor, "Ohm")
